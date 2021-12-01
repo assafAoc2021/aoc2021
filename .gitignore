@@ -1,0 +1,6 @@
+# compile ignores
+/target
+
+# jetbrains ignores
+*.iml
+.idea
