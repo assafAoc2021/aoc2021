@@ -3,11 +3,12 @@ use std::fs::File;
 use std::io::BufReader;
 use std::io::BufRead;
 
-mod d1;
+// mod d1;
+mod d2;
 
 fn main() {
-    d1::run();
-    // println!("{}", l.collect::<String>());
+    // d1::run();
+    d2::run();
 }
 
 fn get_input(day: &str, test: &str) -> impl Iterator<Item=String> {
